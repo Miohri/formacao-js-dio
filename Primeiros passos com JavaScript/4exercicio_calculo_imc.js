@@ -17,13 +17,13 @@ const altura = 1.68;
 const imc = peso / (altura * altura); //Para fazer ao quadrado, também poderia ser usado Math.pow(altura, 2).
 
 if (imc < 18.5) {
-    console.log('Seu IMC é ' + imc.toFixed(2) + ' o que significa que você está abaixo do peso.')
+    console.log('Seu IMC é ' + imc.toFixed(2) + ' o que significa que você está abaixo do peso.');
 } else if (imc >= 18.5 && imc < 25) {
-    console.log('Seu IMC é ' + imc.toFixed(2) + ' o que significa que você está com peso normal.')
+    console.log('Seu IMC é ' + imc.toFixed(2) + ' o que significa que você está com peso normal.');
 } else if (imc >= 25 && imc < 30) {
-    console.log('Seu IMC é ' + imc.toFixed(2) + ' o que significa que você está acima do peso.')
+    console.log('Seu IMC é ' + imc.toFixed(2) + ' o que significa que você está acima do peso.');
 } else if (imc >= 30 && imc < 40) {
-    console.log('Seu IMC é ' + imc.toFixed(2) + ' o que significa que você está obeso.')
+    console.log('Seu IMC é ' + imc.toFixed(2) + ' o que significa que você está obeso.');
 } else {
-    console.log('Seu IMC é ' + imc.toFixed(2) + ' o que significa que você está com obesidade grave.')
+    console.log('Seu IMC é ' + imc.toFixed(2) + ' o que significa que você está com obesidade grave.');
 }

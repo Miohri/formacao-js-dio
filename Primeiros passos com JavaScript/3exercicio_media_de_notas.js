@@ -16,9 +16,9 @@ const nota3 = 4;
 const mediaDeNotas = (nota1 + nota2 + nota3) / 3;
 
 if (mediaDeNotas < 5) {
-    console.log('Sua média é: ' + mediaDeNotas.toFixed(2) + ' e você foi reprovado.')
-} else if (mediaDeNotas >= 5 && mediaDeNotas < 7) { 
-    console.log('Sua média é ' + mediaDeNotas.toFixed(2) + ' e você está de recuperação.')
+    console.log('Sua média é: ' + mediaDeNotas.toFixed(2) + ' e você foi reprovado.');
+} else if (mediaDeNotas >= 5 && mediaDeNotas < 7) {
+    console.log('Sua média é ' + mediaDeNotas.toFixed(2) + ' e você está de recuperação.');
 } else {
-    console.log('Sua média é ' + mediaDeNotas.toFixed(2) + ' e você passou de semestre.')
+    console.log('Sua média é ' + mediaDeNotas.toFixed(2) + ' e você passou de semestre.');
 }

@@ -1,6 +1,6 @@
 // Chamar nome
 function sayMyName(name) {
-    console.log ('My name is: ' + name)
+    console.log('My name is: ' + name);
 }
 
 // Calcular quadrado

@@ -18,7 +18,7 @@ const distanciaEmKmViagem = 166;
 const litrosGastosNaViagem = distanciaEmKmViagem / gastoMedioPorKm;
 
 if (tipoCombustivel === 'etanol') {
-    console.log('O valor gasto na viagem é: ' + litrosGastosNaViagem * precoEtanol)
+    console.log('O valor gasto na viagem é: ' + litrosGastosNaViagem * precoEtanol);
 } else {
-    console.log('O valor gasto na viagem é: ' + litrosGastosNaViagem * precoGasolina)
+    console.log('O valor gasto na viagem é: ' + litrosGastosNaViagem * precoGasolina);
 }
